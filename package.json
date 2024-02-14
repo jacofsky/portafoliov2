@@ -23,6 +23,7 @@
   "devDependencies": {
     "@next/eslint-plugin-next": "^13.5.1",
     "@svgr/webpack": "^8.1.0",
+    "@types/aos": "^3.0.7",
     "@types/negotiator": "^0.6.1",
     "@types/node": "^20",
     "@types/react": "^18",
