@@ -1,0 +1,243 @@
+{
+    "hero": {
+        "title": {
+            "name": "VALENTIN JACOFSKY",
+            "job": "FULLSTACK DEVELOPER"
+        },
+        "description": "Versatile & collaborative fullstack developer weaving innovation into every line of code.",
+        "button": "Let’s work"
+    },
+    "experience": {
+        "title": "Experience",
+        "jobs": [
+            {
+                "company": "Losa0",
+                "position": "FullStack developer",
+                "date": "oct 2023 - now",
+                "page": "/losa0"
+            },
+            {
+                "company": "RockinDev",
+                "position": "FullStack developer",
+                "date": "dic 2022 - sep 2023",
+                "page": "/rockindev"
+            },
+            {
+                "company": "Kartz",
+                "position": "Cofounder & Mobile developer",
+                "date": "feb 2022 - nov 2022 ",
+                "page": "/kartz"
+            },
+            {
+                "company": "WeMade",
+                "position": "Wp developer",
+                "date": "freelance",
+                "page": "/wemade"
+            }
+        ],
+        "wordcarrousel": [
+            "#OPEN TO WORK - ",
+            "CONTACT ME - ",
+            "LET’S TALK - ",
+            "SEEKING OFFERS - "
+        ]
+    },
+    "projects": {
+        "title": "Projects",
+        "projects": [
+            {
+                "image": "/en/kartz.png",
+                "alt": "KARTZ image",
+                "title": "KARTZ",
+                "technologies": [
+                    "React Native",
+                    "Typescript",
+                    "Jira"
+                ],
+                "description": "Kartz, an innovative mobile app developed during our \"Proyecto Final\" at school, aimed to connect car owners with potential renters, mirroring platforms like Airbnb but for car rentals.\n\nI played a crucial role in ideation, mobile development, and feature creation, ensuring a user-friendly experience.\n\nOur efforts led to Kartz being recognized among the top 5 projects at the Universidad de San Andrés (UdeSA) contest.",
+                "code": "github.com",
+                "livepage": null,
+                "rightImage": false
+            },
+            {
+                "image": "/en/whereintheworld.png",
+                "alt": "WHERE IN THE WORLD? image",
+                "title": "WHERE IN THE WORLD?",
+                "technologies": [
+                    "Next",
+                    "Typescript"
+                ],
+                "description": "Developed an application showcasing a list of cards representing countries, sourced from an API.\n\nThe app allowed users to search for specific countries and filter by continent, serving as a practical exploration of Static Site Generation (SSG) in Next.js.",
+                "code": "github.com",
+                "livepage": "page.com",
+                "rightImage": true
+            },
+            {
+                "image": "/en/slitz.png",
+                "alt": "SLITZ & ASOC image",
+                "title": "SLITZ & ASOC",
+                "technologies": [
+                    "Next",
+                    "Typescript",
+                    "Responsive"
+                ],
+                "description": "Based on a provided Figma design, I developed a responsive landing page for a law firm, covering 6 distinct pages.\nThe site featured pop-ups, carousels, and a contact section with field validation through Formik.\n\nAdditionally, I integrated EmailJs for direct email sending from the contact form.\n\nThe project was primarily built using NextJS.",
+                "code": "github.com",
+                "livepage": "page.com",
+                "rightImage": false
+            }
+        ],
+        "buttons": {
+            "code": "Code",
+            "livepage": "Live page"
+        },
+        "cta": {
+            "title": "Want to see more?",
+            "text": "I have more projects on my GitHub profile. Feel free to check them out!",
+            "button": {
+                "label": "GitHub",
+                "url": "github.com"
+            }
+        }
+    },
+    "studies": {
+        "title": "Studies",
+        "studies": [
+            {
+                "title": "Self-taught",
+                "description": "CoderHouse - Udemy - Platzi - Three.js Journey",
+                "date": "forever"
+            },
+            {
+                "title": "University of Palermo",
+                "description": "Bachelor of systems and business",
+                "date": "dic 2023 - ags 2027"
+            },
+            {
+                "title": "ORT Almagro",
+                "description": "Systems orentation",
+                "date": "2017 - 2022"
+            }
+        ],
+        "motivationalPhrase": "“Be the change you wish to see in the world”"
+    },
+    "contact": {
+        "title": "Contact",
+        "form": {
+            "email": {
+                "label": "Email",
+                "leftText": "LETS FLY",
+                "error": "Please enter a valid email"
+            },
+            "name": {
+                "label": "Name",
+                "leftText": "LETS DREAM",
+                "error": "Please enter a valid name"
+            },
+            "message": {
+                "label": "Message",
+                "leftText": "LETS INNOVATE",
+                "error": "Please enter a valid message"
+            },
+            "button": {
+                "label": "Send",
+                "loading": "Sending...",
+                "sent": "Sent",
+                "leftText": "LETS WORK TOGETHER"
+            },
+            "finalPhrase": "LETS MAKE A BETTER FUTURE 🚀"
+        }
+    },
+    "menu": {
+        "hero": "Home",
+        "experience": "Experience",
+        "projects": "Projects",
+        "studies": "Studies",
+        "contact": "Contact"
+    },
+    "works": {
+        "losa0": {
+            "title": "Losa0",
+            "subtitle": "Fullstack developer",
+            "date": "oct 2023 - now",
+            "text": "Experience",
+            "technologies": [
+                "REACT",
+                "POSTGRESQL",
+                "NESTJS",
+                "REDUX"
+            ]
+        },
+        "rockindev": {
+            "title": "Rockin Dev",
+            "subtitle": "Fullstack developer",
+            "date": "dic 2022 - ags 2023",
+            "text": "During my tenure at RockinDev, I've had the privilege of working on transformative projects that have allowed me to hone my skills and contribute to innovative solutions.\n\nRistband (A Dive into the Metaverse)\n\nIn the Ristband project, a metaverse experience, I tackled intricate challenges related to VueJS and pixel streaming. One of my notable contributions was the development and implementation of a Python Lambda function to streamline email communications. Additionally, I configured the Firebase SDK to enhance user authentication through MagicLink and crafted custom email templates. A significant achievement was the development of a responsive loader, complete with gameplay instructions, ensuring a seamless user experience on mobile devices. I also played a pivotal role in designing the Ristband landing page for the renowned SXSW festival. To ensure the project's success, I actively monitored errors using Sentry and maintained impeccable code quality with ESlint. My daily routine also involved task management through Jira and active participation in English daily meetings.\n\nMiniPCR (Shaping the Future of Education)\n\nFor the MiniPCR project, an educative platform, I led the FrontEnd development using the powerful NuxtJS framework. I was instrumental in implementing internationalization features using I18n and integrating Firebase authentication to secure user data. My role also involved setting up a myriad of tools, including ESlint, PostCSS, and nuxt/content, to name a few. I collaborated closely with the backend team, leveraging Axios for efficient data interactions. My design contributions included crafting interactive components for various activities and designing a fresh email template for MagicLink communications. Working in a team of five, our collaborative efforts were orchestrated through sprints managed in ClickUp.",
+            "technologies": [
+                "VUEJS",
+                "PIXEL STREAMING",
+                "PYTHON",
+                "FIREBASE",
+                "AWS SES",
+                "SENTRY",
+                "ESLINT",
+                "JIRA",
+                "FIGMA",
+                "CLICKUP",
+                "NUXTJS",
+                "I18N",
+                "POSTCSS",
+                "STRAPI",
+                "AXIOS"
+            ]
+        },
+        "kartz": {
+            "title": "Kartz",
+            "subtitle": "Cofounder & Mobile developer",
+            "date": "feb 2022 - nov 2022",
+            "text": "Kartz was born out of a vision during our \"Proyecto Final\" course at school. We recognized a gap in the market: a platform that seamlessly connects individuals wanting to rent out their vehicles with those in need of temporary transportation. Drawing parallels with Airbnb's model for accommodations, Kartz was meticulously crafted for the automobile rental domain.\n\nConceptualization & Planning\nCollaborating closely with my peers, we embarked on a journey to lay a solid foundation for Kartz. Our brainstorming sessions were intense, leading to the clear definition of the application's use cases, its overarching vision, and its mission. Every feature, every user interaction was planned with precision, ensuring that our end product would be both innovative and user-centric.\n\nDevelopment & Features\nAs the lead mobile developer, I took the helm of transforming our ideas into a tangible application. Using React Native CLI, I ensured that Kartz was not only functional but also user-friendly and optimized for various mobile devices. One of my significant contributions was the development of a feature that allowed users to list their vehicles, specify details, and set availability schedules. To foster trust within our platform, I also worked on transparency features, such as user reviews and rating systems, ensuring renters and owners could make informed decisions.\n\nRecognition & Achievements\nOur dedication and innovative approach didn't go unnoticed. Kartz proudly secured a position among the top 5 best projects at a contest organized by the prestigious Universidad de San Andrés (UdeSA). This recognition was a testament to our hard work, innovation, and the potential impact of Kartz in the car rental market.",
+            "technologies": [
+                "REACT NATIVE CLI",
+                "FIGMA",
+                "TYPESCRIPT",
+                "JIRA"
+            ]
+        },
+        "wemade": {
+            "title": "WeMade",
+            "subtitle": "Wp developer",
+            "date": "freelance",
+            "text": "In my tenure at WeMade, I embarked on a journey to enhance and modernize our digital presence. Recognizing the potential of our existing assets, I took the initiative to renew and revitalize WordPress templates that were originally created with WpBackery. This renewal process was meticulous, ensuring that every element resonated with our brand's ethos and provided an improved user experience.\n\nBut my contributions didn't stop there. Understanding the unique needs of the real estate sector, I delved deep into designing specialized pages using the versatile Elementor tool. Each page was crafted with precision, keeping in mind the industry's nuances and the expectations of our target audience. The designs were not only visually appealing but also functional, ensuring that potential clients and partners could navigate with ease and access the information they sought.\n\nThrough these efforts, I aimed to position WeMade at the forefront of digital excellence in the real estate domain, ensuring that our online platforms were reflective of our commitment to quality and innovation.r",
+            "technologies": [
+                "WORDPRESS",
+                "WPBACKERY",
+                "ELEMENTOR"
+            ]
+        }
+    },
+    "footer": {
+        "menu": [
+            {
+                "title": "Home",
+                "url": "/#hero"
+            },
+            {
+                "title": "Experience",
+                "url": "/#experience"
+            },
+            {
+                "title": "Projects",
+                "url": "/#projects"
+            },
+            {
+                "title": "Studies",
+                "url": "/#studies"
+            },
+            {
+                "title": "Contact",
+                "url": "/#contact"
+            }
+        ],
+        "madeBy": "Made with ❤️ by Valentin Jacofsky"
+    }
+}

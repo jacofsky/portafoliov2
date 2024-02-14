@@ -1,0 +1,188 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-text: #f4f4f4;
+  --secondary-text: rgba(255, 255, 255, 0.5);
+  --start-primary-gradient: #4AC7FA;
+  --end-primary-gradient: #E649F5;
+  --start-secondary-gradient: #393939;
+  --end-secondary-gradient: rgba(61, 61, 61, 0);
+  --bg: #131313;
+
+}
+
+html {
+  font-family: 'Poppins';
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  overflow-x: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.text-gradient-stroke {
+  font-family: var(--heading-font);
+  display: inline-block;
+  position: relative;
+  color: var(--bg);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.5rem;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: .05em transparent;
+  text-stroke: .05em transparent;
+  background-image: linear-gradient(to right, var(--start-primary-gradient) 0%, var(--end-primary-gradient) 100%);
+}
+
+@media (max-width: 768px) {
+  .text-gradient-stroke {
+    -webkit-text-stroke: .075em transparent;
+    text-stroke: .075em transparent;
+  }
+}
+
+.text-gradient-stroke-no-spacing {
+  font-family: var(--heading-font);
+  display: inline-block;
+  position: relative;
+  color: var(--bg);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: .05em transparent;
+  text-stroke: .05em transparent;
+  background-image: linear-gradient(to right, var(--start-primary-gradient) 0%, var(--end-primary-gradient) 100%);
+}
+
+.text-gradient-stroke-motivational {
+  font-family: var(--heading-font);
+  display: inline-block;
+  position: relative;
+  color: var(--bg);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.25rem;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: .075em transparent;
+  text-stroke: .075em transparent;
+  background-image: linear-gradient(to right, var(--start-primary-gradient) 0%, var(--end-primary-gradient) 100%);
+}
+
+.text-white-stroke {
+  font-family: var(--heading-font);
+  position: relative;
+  color: var(--bg);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.5rem;
+  -webkit-text-stroke: .03em var(--primary-text);
+  text-stroke: .03em var(--primary-text);
+  transition: all .2s ease-in;
+}
+
+.tech-badge-gradient {
+  background: radial-gradient(235.19% 235.19% at 50% -67.5%, #393939 0%, rgba(61, 61, 61, 0.00) 100%);
+}
+
+.project-title {
+  font-family: var(--heading-font);
+  letter-spacing: 0.375rem;
+}
+
+.button-gradient-border {
+  background-image: radial-gradient(circle at 100% 100%, transparent -1px, var(--start-primary-gradient) -1px, var(--start-primary-gradient) 1px, transparent 1px), linear-gradient(to right, var(--start-primary-gradient), var(--end-primary-gradient)), radial-gradient(circle at 0% 100%, transparent -1px, var(--end-primary-gradient) -1px, var(--end-primary-gradient) 1px, transparent 1px), linear-gradient(to bottom, var(--end-primary-gradient), var(--end-primary-gradient)), radial-gradient(circle at 0% 0%, transparent -1px, var(--end-primary-gradient) -1px, var(--end-primary-gradient) 1px, transparent 1px), linear-gradient(to left, var(--end-primary-gradient), var(--start-primary-gradient)), radial-gradient(circle at 100% 0%, transparent -1px, var(--start-primary-gradient) -1px, var(--start-primary-gradient) 1px, transparent 1px), linear-gradient(to top, var(--start-primary-gradient), var(--start-primary-gradient));
+  background-size: 1px 1px, calc(100% - 0px) 2px, 1px 1px, 2px calc(100% - 0px);
+  background-position: top left, top center, top right, center right, bottom right, bottom center, bottom left, center left;
+  background-repeat: no-repeat;
+}
+
+.primary-text-gradient {
+  background: linear-gradient(to right, var(--start-primary-gradient) 0%, var(--end-primary-gradient) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+}
+
+.primary-gradient {
+  background: linear-gradient(to right, var(--start-primary-gradient) 0%, var(--end-primary-gradient) 100%);
+}
+
+.text-nowrap {
+  text-wrap: nowrap;
+}
+
+.text-pretty {
+  text-wrap: pretty;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.hero-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 110%;
+  letter-spacing: 0.05rem;
+}
+
+.marquee {
+  --gap: 1rem;
+  display: flex;
+  overflow: hidden;
+  user-select: none;
+  gap: var(--gap);
+}
+
+.marquee__content {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+  min-width: 100%;
+  gap: var(--gap);
+  animation: marquee-text 20s linear infinite;
+}
+
+.marquee:hover .text-white-stroke {
+  color: var(--primary-text);
+  -webkit-text-stroke: .03em transparent;
+  text-stroke: .03em transparent;
+  cursor: pointer;
+}
+
+.link-text-border-bottom::after {
+  content: '';
+  position: absolute;
+  height: 0.15rem;
+  width: 100%;
+  background: linear-gradient(to right, var(--start-primary-gradient) 0%, var(--end-primary-gradient) 100%);
+  bottom: -4px;
+  left: 0;
+  border-radius: 1rem;
+}
+
+.left-form-font {
+  font-family: var(--heading-font);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.5875rem;
+}
