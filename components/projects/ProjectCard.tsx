@@ -10,8 +10,8 @@ interface Iprops {
     title: string;
     technologies: string[];
     description: string;
-    code: string | null;
-    livepage: string | null;
+    code?: string | null;
+    livepage?: string | null;
     rightImage: boolean;
   };
   buttons: {

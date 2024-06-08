@@ -23,14 +23,15 @@ async function Hero({lang}: {lang: Locale}) {
       <Pattern className="absolute right-0 top-0 h-screen w-screen object-cover" />
       <div className="mb-[15vh] pt-[15vh]" data-aos="zoom-in">
         <div className="text-center md:text-left">
-          <h2 className="text-white-stroke text-3xl md:text-6xl">{dictionary.hero.title.name}</h2>
+          <h2 className="text-white-stroke text-3xl md:text-5xl">{dictionary.hero.title.name}</h2>
           <h2 className="text-gradient-stroke text-[2rem] md:text-[4rem]">
             {dictionary.hero.title.job}
           </h2>
         </div>
-        <p className="hero-text mt-6 max-w-[56rem] text-center text-base text-primary-text md:text-left md:text-[1.75rem]">
-          {dictionary.hero.description}
-        </p>
+        <p
+          dangerouslySetInnerHTML={{__html: dictionary.hero.description}}
+          className="hero-text mt-6 max-w-[50rem] text-center text-base text-primary-text md:text-justify md:text-[1.50rem]"
+        />
         <div className="mb-[20vh] mt-4 flex flex-row flex-wrap justify-center gap-4 md:justify-start">
           <SiNextdotjs className="h-7 w-7 text-primary-text md:h-10 md:w-10 " />
           <SiNuxtdotjs className="h-7 w-7 text-primary-text md:h-10 md:w-10" />

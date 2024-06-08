@@ -6,7 +6,7 @@ async function Studies({lang}: {lang: Locale}) {
   const dictionary = getDictionary(lang);
 
   return (
-    <section className="min-h-screen w-screen px-4 pt-12 md:px-16" id="studies">
+    <section className="w-screen px-4 pt-12 md:px-16" id="studies">
       <h2 className="text-gradient-stroke text-3xl md:text-6xl">{dictionary.studies.title}</h2>
       <div className="mt-8 flex flex-col gap-14">
         {dictionary.studies.studies.map((study, i) => (

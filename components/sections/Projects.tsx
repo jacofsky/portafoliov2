@@ -18,7 +18,7 @@ async function Projects({lang}: {lang: Locale}) {
           projects={dictionary.projects.projects}
         />
       </section>
-      <section className="mt-4 bg-gradient-to-r from-[#4AC7FA] to-[#E649F5] py-8">
+      <section className="mt-4 hidden bg-gradient-to-r from-[#4AC7FA] to-[#E649F5] py-8">
         <h3 className="mb-2 text-center text-xl text-white md:text-3xl">
           {dictionary.projects.cta.title}
         </h3>
