@@ -22,14 +22,33 @@ async function Footer({lang}: {lang: Locale}) {
           </ul>
         </nav>
         <div className="text-center text-white md:text-left">
-          <p className="mb-4 text-2xl">Personal data</p>
-          <div className="flex flex-col gap-1">
-            <p>📍Argentina, CABA</p>
-            <p>📧 vjacofsky.dev@gmail.com</p>
-            <p>📞 +54 9 11 2881 6510</p>
+          <p className="mb-4 text-2xl">{dictionary.footer.titleData}</p>
+          <div className="flex flex-col gap-2">
+            <p>📍 Argentina, CABA</p>
+            <p style={{userSelect: "text"}}>📧 vjacofsky.dev@gmail.com</p>
+            <p style={{userSelect: "text"}}>📞 +54 9 11 2881 6510</p>
+            <Link
+              className="w-full border-2 border-white px-12 py-2 text-center text-sm transition-all hover:border-[--end-primary-gradient] hover:text-[--end-primary-gradient]"
+              href={dictionary.footer.cv.url}
+              target="_blank"
+            >
+              {dictionary.footer.cv.text}
+            </Link>
             <div className="flex flex-row justify-center gap-2 md:justify-start">
-              <FaLinkedin size={25} />
-              <FaGithub size={25} />
+              <Link
+                className="transition-all duration-200 hover:rotate-6 hover:scale-110"
+                href={dictionary.footer.socials.linkedin}
+                target="_blank"
+              >
+                <FaLinkedin size={25} />
+              </Link>
+              <Link
+                className="transition-all duration-200 hover:rotate-6 hover:scale-110"
+                href={dictionary.footer.socials.github}
+                target="_blank"
+              >
+                <FaGithub size={25} />
+              </Link>
             </div>
           </div>
         </div>
