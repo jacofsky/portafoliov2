@@ -1,45 +1,45 @@
 {
     "hero": {
         "title": {
-            "name": "I’M VALENTIN JACOFSKY",
-            "job": "FULLSTACK DEVELOPER"
+            "name": "VALENTIN JACOFSKY",
+            "job": "DESARROLLADOR FULLSTACK"
         },
-        "description": "Versatile & collaborative fullstack developer weaving innovation into every line of code.",
-        "button": "Let’s work"
+        "description": "Me defino como un desarrollador fullstack <b class='primary-text-gradient'>versátil y colaborativo</b> con un fuerte interés en comprender la <b class='primary-text-gradient'>lógica de negocio</b> y <b class='primary-text-gradient'>aportar valor</b> a la misma.",
+        "button": "Contactame"
     },
     "experience": {
-        "title": "Experience",
+        "title": "Experiencia",
         "jobs": [
             {
                 "company": "Losa0",
-                "position": "FullStack developer",
-                "date": "oct 2023 - now",
-                "page": "/losa0"
+                "position": "Desarrollador FullStack",
+                "date": "oct 2023 - presente",
+                "page": "/es/losa0"
             },
             {
                 "company": "RockinDev",
-                "position": "FullStack developer",
+                "position": "Desarrollador FullStack",
                 "date": "dic 2022 - sep 2023",
-                "page": "/rockindev"
+                "page": "/es/rockindev"
             },
             {
                 "company": "Kartz",
-                "position": "Cofounder & Mobile developer",
-                "date": "feb 2022 - nov 2022 ",
-                "page": "/kartz"
+                "position": "Cofundador y Desarrollador Móvil",
+                "date": "feb 2022 - nov 2022",
+                "page": "/es/kartz"
             },
             {
                 "company": "WeMade",
-                "position": "Wp developer",
+                "position": "Desarrollador WP",
                 "date": "freelance",
-                "page": "/wemade"
+                "page": "/es/wemade"
             }
         ],
         "wordcarrousel": [
-            "#OPEN TO WORK - ",
-            "CONTACT ME - ",
-            "LET’S TALK - ",
-            "SEEKING OFFERS - "
+            "#ABIERTO A TRABAJAR - ",
+            "CONTÁCTAME - ",
+            "CHARLEMOS - ",
+            "ESCUCHO OFERTAS - "
         ]
     },
     "projects": {
@@ -47,53 +47,51 @@
         "projects": [
             {
                 "image": "/en/kartz.png",
-                "alt": "KARTZ image",
+                "alt": "Imagen de KARTZ",
                 "title": "KARTZ",
                 "technologies": [
                     "React Native",
                     "Typescript",
                     "Jira"
                 ],
-                "description": "Kartz, an innovative mobile app developed during our \"Proyecto Final\" at school, aimed to connect car owners with potential renters, mirroring platforms like Airbnb but for car rentals.\n\nI played a crucial role in ideation, mobile development, and feature creation, ensuring a user-friendly experience.\n\nOur efforts led to Kartz being recognized among the top 5 projects at the Universidad de San Andrés (UdeSA) contest.",
-                "code": "github.com",
+                "description": "Kartz, una innovadora aplicación móvil desarrollada durante nuestro \"Proyecto Final\" en la escuela, destinada a conectar propietarios de automóviles con posibles arrendatarios, similar a plataformas como Airbnb pero para alquiler de coches.\n\nJugué un papel crucial en la ideación, desarrollo móvil y creación de funciones, asegurando una experiencia fácil de usar.\n\nNuestros esfuerzos llevaron a que Kartz fuera reconocido entre los 5 mejores proyectos en el concurso de la Universidad de San Andrés (UdeSA).",
                 "livepage": null,
                 "rightImage": false
             },
             {
-                "image": "/en/whereintheworld.png",
-                "alt": "WHERE IN THE WORLD? image",
-                "title": "WHERE IN THE WORLD?",
+                "image": "/en/freelanceProject.png",
+                "alt": "Panel de administración",
+                "title": "PANEL DE ADMINISTRACIÓN",
                 "technologies": [
-                    "Next",
-                    "Typescript"
+                    "React",
+                    "Typescript",
+                    "Zustand",
+                    "ExcelJS"
                 ],
-                "description": "Developed an application showcasing a list of cards representing countries, sourced from an API.\n\nThe app allowed users to search for specific countries and filter by continent, serving as a practical exploration of Static Site Generation (SSG) in Next.js.",
-                "code": "github.com",
-                "livepage": "page.com",
+                "description": "Desarrollé un panel de administración responsivo para Phillips Morris CA, permitiéndoles gestionar pedidos para un nuevo producto con funcionalidades personalizadas.\n\n El panel presentaba un tablero con estadísticas de ventas, una sección de gestión de ventas y mucho más, incluyendo la funcionalidad de exportación a Excel y PDF.\n\nEl proyecto se construyó utilizando React y Zustand para la gestión de estado.",
                 "rightImage": true
             },
             {
                 "image": "/en/slitz.png",
-                "alt": "SLITZ & ASOC image",
+                "alt": "Imagen de SLITZ & ASOC",
                 "title": "SLITZ & ASOC",
                 "technologies": [
                     "Next",
                     "Typescript",
                     "Responsive"
                 ],
-                "description": "Based on a provided Figma design, I developed a responsive landing page for a law firm, covering 6 distinct pages.\nThe site featured pop-ups, carousels, and a contact section with field validation through Formik.\n\nAdditionally, I integrated EmailJs for direct email sending from the contact form.\n\nThe project was primarily built using NextJS.",
-                "code": "github.com",
-                "livepage": "page.com",
+                "description": "Basado en un diseño proporcionado por Figma, desarrollé una página de aterrizaje responsiva para un bufete de abogados, cubriendo 6 páginas distintas.\nEl sitio incluía pop-ups, carruseles y una sección de contacto con validación de campos a través de Formik.\n\nAdemás, integré EmailJs para el envío directo de correos desde el formulario de contacto.\n\nEl proyecto se construyó principalmente utilizando NextJS.",
+                "livepage": "https://www.estudioszlit.com.ar/",
                 "rightImage": false
             }
         ],
         "buttons": {
-            "code": "Code",
-            "livepage": "Live page"
+            "code": "Código",
+            "livepage": "Pagina"
         },
         "cta": {
-            "title": "Want to see more?",
-            "text": "I have more projects on my GitHub profile. Feel free to check them out!",
+            "title": "¿Quieres ver más?",
+            "text": "Tengo más proyectos en mi perfil de GitHub. No dudes en revisarlos!",
             "button": {
                 "label": "GitHub",
                 "url": "github.com"
@@ -101,78 +99,81 @@
         }
     },
     "studies": {
-        "title": "Studies",
+        "title": "Estudios",
         "studies": [
             {
-                "title": "Self-taught",
+                "title": "Autodidacta",
                 "description": "CoderHouse - Udemy - Platzi - Three.js Journey",
-                "date": "forever"
+                "date": "siempre"
             },
             {
-                "title": "University of Palermo",
-                "description": "Bachelor of systems and business",
+                "title": "Universidad de Palermo",
+                "description": "Licenciatura en sistemas y empresas",
                 "date": "dic 2023 - ags 2027"
             },
             {
                 "title": "ORT Almagro",
-                "description": "Systems orentation",
+                "description": "Orientación en sistemas",
                 "date": "2017 - 2022"
             }
         ],
-        "motivationalPhrase": "“Be the change you wish to see in the world”"
+        "motivationalPhrase": "“Sé el cambio que deseas ver en el mundo”"
     },
     "contact": {
-        "title": "Contact",
+        "title": "Contacto",
         "form": {
             "email": {
-                "label": "Email",
-                "leftText": "LETS FLY",
-                "error": "Please enter a valid email"
+                "label": "Correo Electrónico",
+                "leftText": "SOŃEMOS",
+                "error": "Por favor, introduce un correo válido"
             },
             "name": {
-                "label": "Name",
-                "leftText": "LETS DREAM",
-                "error": "Please enter a valid name"
+                "label": "Nombre",
+                "leftText": "INVOVEMOS",
+                "error": "Por favor, introduce un nombre válido"
             },
             "message": {
-                "label": "Message",
-                "leftText": "LETS INNOVATE",
-                "error": "Please enter a valid message"
+                "label": "Mensaje",
+                "leftText": "QUE SEA REALIDAD",
+                "error": "Por favor, introduce un mensaje válido"
             },
             "button": {
-                "label": "Send",
-                "loading": "Sending...",
-                "sent": "Sent",
-                "leftText": "LETS WORK TOGETHER"
+                "label": "Enviar",
+                "loading": "Enviando...",
+                "sent": "Enviado",
+                "leftText": "VAMOS A TRABAJAR JUNTOS"
             },
-            "finalPhrase": "LETS MAKE A BETTER FUTURE 🚀"
+            "finalPhrase": "HAGAMOS UN MEJOR FUTURO 🚀"
         }
     },
     "menu": {
-        "hero": "Home",
-        "experience": "Experience",
-        "projects": "Projects",
-        "studies": "Studies",
-        "contact": "Contact"
+        "hero": "Inicio",
+        "experience": "Experiencia",
+        "projects": "Proyectos",
+        "studies": "Estudios",
+        "contact": "Contacto"
     },
     "works": {
         "losa0": {
             "title": "Losa0",
-            "subtitle": "Fullstack developer",
-            "date": "oct 2023 - now",
-            "text": "Experience",
+            "subtitle": "Desarrollador Fullstack",
+            "date": "oct 2023 - presente",
+            "text": "En Losa0, una startup en pleno crecimiento en el sector de la construcción, inmobiliario y arquitectura, me desempeño como desarrollador fullstack, contribuyendo al desarrollo de una plataforma ERP totalmente personalizada para cada cliente.\n\nMis responsabilidades incluyen la creación de nuevas funcionalidades de extremo a extremo, asegurando la integración y el rendimiento óptimo de las soluciones.\n\nDurante mi tiempo en Losa0, he desarrollado un sistema Kanban al estilo Trello, permitiendo a los usuarios gestionar sus proyectos de manera eficiente dentro de la plataforma. También integré un sistema de envío masivo de correos electrónicos para notificar sobre vencimientos de cuotas, mejorando la comunicación y el seguimiento de pagos. Creé la primera versión de un módulo de lista de precios de unidades, proporcionando a los usuarios una herramienta para la gestión precisa de precios, e implementé auditoría en operaciones, asegurando la transparencia y el control de las acciones dentro de la plataforma.",
             "technologies": [
                 "REACT",
                 "POSTGRESQL",
                 "NESTJS",
-                "REDUX"
+                "TYPESCRIPT",
+                "REDUX TOOLKIT",
+                "S3",
+                "REACT BOOTSTRAP"
             ]
         },
         "rockindev": {
             "title": "Rockin Dev",
-            "subtitle": "Fullstack developer",
+            "subtitle": "Desarrollador Fullstack",
             "date": "dic 2022 - ags 2023",
-            "text": "During my tenure at RockinDev, I've had the privilege of working on transformative projects that have allowed me to hone my skills and contribute to innovative solutions.\n\nRistband (A Dive into the Metaverse)\n\nIn the Ristband project, a metaverse experience, I tackled intricate challenges related to VueJS and pixel streaming. One of my notable contributions was the development and implementation of a Python Lambda function to streamline email communications. Additionally, I configured the Firebase SDK to enhance user authentication through MagicLink and crafted custom email templates. A significant achievement was the development of a responsive loader, complete with gameplay instructions, ensuring a seamless user experience on mobile devices. I also played a pivotal role in designing the Ristband landing page for the renowned SXSW festival. To ensure the project's success, I actively monitored errors using Sentry and maintained impeccable code quality with ESlint. My daily routine also involved task management through Jira and active participation in English daily meetings.\n\nMiniPCR (Shaping the Future of Education)\n\nFor the MiniPCR project, an educative platform, I led the FrontEnd development using the powerful NuxtJS framework. I was instrumental in implementing internationalization features using I18n and integrating Firebase authentication to secure user data. My role also involved setting up a myriad of tools, including ESlint, PostCSS, and nuxt/content, to name a few. I collaborated closely with the backend team, leveraging Axios for efficient data interactions. My design contributions included crafting interactive components for various activities and designing a fresh email template for MagicLink communications. Working in a team of five, our collaborative efforts were orchestrated through sprints managed in ClickUp.",
+            "text": "Durante mi tiempo en RockinDev, tuve el privilegio de trabajar en proyectos transformadores que me permitieron perfeccionar mis habilidades y contribuir a soluciones innovadoras.\n\nRistband (Una inmersión en el Metaverso)\n\nEn el proyecto Ristband, una experiencia de metaverso, abordé desafíos intrincados relacionados con VueJS y la transmisión de píxeles. Una de mis contribuciones notables fue el desarrollo e implementación de una función Lambda en Python para optimizar las comunicaciones por correo electrónico. Además, configuré el SDK de Firebase para mejorar la autenticación de usuarios a través de MagicLink y diseñé plantillas de correo electrónico personalizadas. Un logro significativo fue el desarrollo de un cargador responsivo, completo con instrucciones de juego, asegurando una experiencia de usuario fluida en dispositivos móviles. También desempeñé un papel fundamental en el diseño de la página de aterrizaje de Ristband para el renombrado festival SXSW. Para garantizar el éxito del proyecto, monitoreé activamente los errores utilizando Sentry y mantuve una calidad de código impecable con ESlint. Mi rutina diaria también incluía la gestión de tareas a través de Jira y la participación activa en reuniones diarias en inglés.\n\nMiniPCR (Dando forma al futuro de la educación)\n\nPara el proyecto MiniPCR, una plataforma educativa, lideré el desarrollo del FrontEnd utilizando el poderoso marco NuxtJS. Fui fundamental en la implementación de características de internacionalización utilizando I18n e integrando la autenticación de Firebase para asegurar los datos de los usuarios. Mi rol también implicó la configuración de una variedad de herramientas, incluyendo ESlint, PostCSS y nuxt/content, por nombrar algunas. Colaboré estrechamente con el equipo de backend, aprovechando Axios para interacciones de datos eficientes. Mis contribuciones de diseño incluyeron la creación de componentes interactivos para diversas actividades y el diseño de una nueva plantilla de correo electrónico para las comunicaciones de MagicLink. Trabajando en un equipo de cinco, nuestros esfuerzos colaborativos fueron organizados a través de sprints gestionados en ClickUp.",
             "technologies": [
                 "VUEJS",
                 "PIXEL STREAMING",
@@ -193,9 +194,9 @@
         },
         "kartz": {
             "title": "Kartz",
-            "subtitle": "Cofounder & Mobile developer",
+            "subtitle": "Cofundador y Desarrollador Móvil",
             "date": "feb 2022 - nov 2022",
-            "text": "Kartz was born out of a vision during our \"Proyecto Final\" course at school. We recognized a gap in the market: a platform that seamlessly connects individuals wanting to rent out their vehicles with those in need of temporary transportation. Drawing parallels with Airbnb's model for accommodations, Kartz was meticulously crafted for the automobile rental domain.\n\nConceptualization & Planning\nCollaborating closely with my peers, we embarked on a journey to lay a solid foundation for Kartz. Our brainstorming sessions were intense, leading to the clear definition of the application's use cases, its overarching vision, and its mission. Every feature, every user interaction was planned with precision, ensuring that our end product would be both innovative and user-centric.\n\nDevelopment & Features\nAs the lead mobile developer, I took the helm of transforming our ideas into a tangible application. Using React Native CLI, I ensured that Kartz was not only functional but also user-friendly and optimized for various mobile devices. One of my significant contributions was the development of a feature that allowed users to list their vehicles, specify details, and set availability schedules. To foster trust within our platform, I also worked on transparency features, such as user reviews and rating systems, ensuring renters and owners could make informed decisions.\n\nRecognition & Achievements\nOur dedication and innovative approach didn't go unnoticed. Kartz proudly secured a position among the top 5 best projects at a contest organized by the prestigious Universidad de San Andrés (UdeSA). This recognition was a testament to our hard work, innovation, and the potential impact of Kartz in the car rental market.",
+            "text": "Kartz nació de una visión durante nuestro curso de \"Proyecto Final\" en la escuela. Reconocimos una brecha en el mercado: una plataforma que conectara sin problemas a las personas que deseaban alquilar sus vehículos con aquellas que necesitaban transporte temporal. Estableciendo paralelismos con el modelo de Airbnb para alojamientos, Kartz fue meticulosamente diseñado para el dominio del alquiler de automóviles.\n\nConceptualización y Planificación\nColaborando estrechamente con mis compañeros, emprendimos un viaje para sentar una base sólida para Kartz. Nuestras sesiones de lluvia de ideas fueron intensas, llevando a la definición clara de los casos de uso de la aplicación, su visión general y su misión. Cada característica, cada interacción del usuario fue planificada con precisión, asegurando que nuestro producto final fuera tanto innovador como centrado en el usuario.\n\nDesarrollo y Características\nComo desarrollador móvil principal, me encargué de transformar nuestras ideas en una aplicación tangible. Utilizando React Native CLI, me aseguré de que Kartz no solo fuera funcional, sino también fácil de usar y optimizado para varios dispositivos móviles. Una de mis contribuciones significativas fue el desarrollo de una función que permitía a los usuarios listar sus vehículos, especificar detalles y establecer horarios de disponibilidad. Para fomentar la confianza dentro de nuestra plataforma, también trabajé en funciones de transparencia, como sistemas de reseñas y calificaciones de usuarios, asegurando que los arrendatarios y propietarios pudieran tomar decisiones informadas.\n\nReconocimientos y Logros\nNuestra dedicación y enfoque innovador no pasaron desapercibidos. Kartz logró asegurarse una posición entre los 5 mejores proyectos en un concurso organizado por la prestigiosa Universidad de San Andrés (UdeSA). Este reconocimiento fue un testimonio de nuestro arduo trabajo, innovación y el impacto potencial de Kartz en el mercado de alquiler de automóviles.",
             "technologies": [
                 "REACT NATIVE CLI",
                 "FIGMA",
@@ -205,9 +206,9 @@
         },
         "wemade": {
             "title": "WeMade",
-            "subtitle": "Wp developer",
+            "subtitle": "Desarrollador WP",
             "date": "freelance",
-            "text": "In my tenure at WeMade, I embarked on a journey to enhance and modernize our digital presence. Recognizing the potential of our existing assets, I took the initiative to renew and revitalize WordPress templates that were originally created with WpBackery. This renewal process was meticulous, ensuring that every element resonated with our brand's ethos and provided an improved user experience.\n\nBut my contributions didn't stop there. Understanding the unique needs of the real estate sector, I delved deep into designing specialized pages using the versatile Elementor tool. Each page was crafted with precision, keeping in mind the industry's nuances and the expectations of our target audience. The designs were not only visually appealing but also functional, ensuring that potential clients and partners could navigate with ease and access the information they sought.\n\nThrough these efforts, I aimed to position WeMade at the forefront of digital excellence in the real estate domain, ensuring that our online platforms were reflective of our commitment to quality and innovation.r",
+            "text": "Durante mi tiempo en WeMade, emprendí un viaje para mejorar y modernizar nuestra presencia digital. Reconociendo el potencial de nuestros activos existentes, tomé la iniciativa de renovar y revitalizar las plantillas de WordPress que originalmente se crearon con WpBackery. Este proceso de renovación fue meticuloso, asegurando que cada elemento resonara con la ética de nuestra marca y proporcionara una experiencia de usuario mejorada.\n\nPero mis contribuciones no se detuvieron allí. Entendiendo las necesidades únicas del sector inmobiliario, me adentré en el diseño de páginas especializadas utilizando la versátil herramienta Elementor. Cada página fue creada con precisión, teniendo en cuenta las particularidades de la industria y las expectativas de nuestra audiencia objetivo. Los diseños no solo eran visualmente atractivos, sino también funcionales, asegurando que los clientes potenciales y socios pudieran navegar con facilidad y acceder a la información que buscaban.\n\nA través de estos esfuerzos, busqué posicionar a WeMade a la vanguardia de la excelencia digital en el dominio inmobiliario, asegurando que nuestras plataformas en línea reflejaran nuestro compromiso con la calidad y la innovación.",
             "technologies": [
                 "WORDPRESS",
                 "WPBACKERY",
@@ -218,26 +219,35 @@
     "footer": {
         "menu": [
             {
-                "title": "Home",
+                "title": "Inicio",
                 "url": "/#hero"
             },
             {
-                "title": "Experience",
+                "title": "Experiencia",
                 "url": "/#experience"
             },
             {
-                "title": "Projects",
+                "title": "Proyectos",
                 "url": "/#projects"
             },
             {
-                "title": "Studies",
+                "title": "Estudios",
                 "url": "/#studies"
             },
             {
-                "title": "Contact",
+                "title": "Contacto",
                 "url": "/#contact"
             }
         ],
-        "madeBy": "Made with ❤️ by Valentin Jacofsky"
+        "socials": {
+            "linkedin": "https://www.linkedin.com/in/valentin-jacofsky-127b9b210/",
+            "github": "https://github.com/jacofsky"
+        },
+        "madeBy": "Hecho con ❤️ por Valentín Jacofsky",
+        "titleData": "Datos personales",
+        "cv": {
+            "text": "Visualizar CV",
+            "url": "https://www.figma.com/proto/Ij7wt96RdhLHljTq0Cebjm/CV-Resume-Valentin-Jacofsky-(Community)?page-id=0%3A1&node-id=123-1136&viewport=-581%2C341%2C0.73&t=R0tUNP9TKIyTuM6o-1&scaling=min-zoom"
+        }
     }
 }

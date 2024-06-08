@@ -1,11 +1,11 @@
 {
     "hero": {
         "title": {
-            "name": "VALENTIN JACOFSKY",
+            "name": "I'M VALENTIN JACOFSKY",
             "job": "FULLSTACK DEVELOPER"
         },
-        "description": "Versatile & collaborative fullstack developer weaving innovation into every line of code.",
-        "button": "Let’s work"
+        "description": "I define myself as a <b class='primary-text-gradient'>versatile and collaborative</b> fullstack developer with a strong interest in understanding <b class='primary-text-gradient'>business logic</b> and <b class='primary-text-gradient'>adding value</b> to it.",
+        "button": "Let’s talk"
     },
     "experience": {
         "title": "Experience",
@@ -55,21 +55,20 @@
                     "Jira"
                 ],
                 "description": "Kartz, an innovative mobile app developed during our \"Proyecto Final\" at school, aimed to connect car owners with potential renters, mirroring platforms like Airbnb but for car rentals.\n\nI played a crucial role in ideation, mobile development, and feature creation, ensuring a user-friendly experience.\n\nOur efforts led to Kartz being recognized among the top 5 projects at the Universidad de San Andrés (UdeSA) contest.",
-                "code": "github.com",
                 "livepage": null,
                 "rightImage": false
             },
             {
-                "image": "/en/whereintheworld.png",
-                "alt": "WHERE IN THE WORLD? image",
-                "title": "WHERE IN THE WORLD?",
+                "image": "/en/freelanceProject.png",
+                "alt": "Admin panel",
+                "title": "ADMIN PANEL",
                 "technologies": [
-                    "Next",
-                    "Typescript"
+                    "React",
+                    "Typescript",
+                    "Zustand",
+                    "ExcelJS"
                 ],
-                "description": "Developed an application showcasing a list of cards representing countries, sourced from an API.\n\nThe app allowed users to search for specific countries and filter by continent, serving as a practical exploration of Static Site Generation (SSG) in Next.js.",
-                "code": "github.com",
-                "livepage": "page.com",
+                "description": "I developed a responsive admin panel for Phillips Morris CA, allowing them to manage order for a new product with custom functionabilities.\n\n The panel featured a dashboard with sales statistics, a sales management section, and much more, including Excel and PDF export functionality.\n\nThe project was built using React and Zustand for state management.",
                 "rightImage": true
             },
             {
@@ -82,8 +81,7 @@
                     "Responsive"
                 ],
                 "description": "Based on a provided Figma design, I developed a responsive landing page for a law firm, covering 6 distinct pages.\nThe site featured pop-ups, carousels, and a contact section with field validation through Formik.\n\nAdditionally, I integrated EmailJs for direct email sending from the contact form.\n\nThe project was primarily built using NextJS.",
-                "code": "github.com",
-                "livepage": "page.com",
+                "livepage": "https://www.estudioszlit.com.ar/",
                 "rightImage": false
             }
         ],
@@ -160,12 +158,15 @@
             "title": "Losa0",
             "subtitle": "Fullstack developer",
             "date": "oct 2023 - now",
-            "text": "Experience",
+            "text": "At Losa0, a rapidly growing startup in the construction, real estate, and architecture sector, I serve as a fullstack developer, contributing to the development of a fully customized ERP platform tailored to each client’s needs.\n\nMy responsibilities include end-to-end feature development, ensuring seamless integration and optimal performance of solutions.\n\nKey Achievements:\n- Developed a Trello-style Kanban system, enabling users to efficiently manage their projects within the platform.\n- Integrated a mass email system to notify users of due payments, enhancing communication and payment tracking.\n- Created the first version of a unit price list module, providing users with a tool for precise price management.\n- Implemented operation auditing, ensuring transparency and control over actions within the platform.",
             "technologies": [
                 "REACT",
                 "POSTGRESQL",
                 "NESTJS",
-                "REDUX"
+                "TYPESCRIPT",
+                "REDUX TOOLKIT",
+                "S3",
+                "REACT BOOTSTRAP"
             ]
         },
         "rockindev": {
@@ -238,6 +239,15 @@
                 "url": "/#contact"
             }
         ],
-        "madeBy": "Made with ❤️ by Valentin Jacofsky"
+        "socials": {
+            "linkedin": "https://www.linkedin.com/in/valentin-jacofsky-127b9b210/",
+            "github": "https://github.com/jacofsky"
+        },
+        "madeBy": "Made with ❤️ by Valentin Jacofsky",
+        "titleData": "Personal data",
+        "cv": {
+            "text": "Visualize CV",
+            "url": "https://www.figma.com/proto/Ij7wt96RdhLHljTq0Cebjm/CV-Resume-Valentin-Jacofsky-(Community)?page-id=0%3A1&node-id=123-1136&viewport=-581%2C341%2C0.73&t=R0tUNP9TKIyTuM6o-1&scaling=min-zoom"
+        }
     }
 }
