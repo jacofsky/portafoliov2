@@ -20,7 +20,7 @@ export const metadata: Metadata = {
       "Portafolio de Valentín Jacofsky, desarrollador fullstack con experiencia en tecnologías como React, Node.js, PostgreSQL y más. Explorando oportunidades para contribuir en roles de programación y producto.",
     images: [
       {
-        url: "https://valentin-jacofsky.vercel.app/portrait.jpeg",
+        url: "https://valentin-jacofsky.vercel.app/en/portrait.jpeg",
         width: 800,
         height: 600,
         alt: "Valentín Jacofsky",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
       "Portafolio de Valentín Jacofsky, desarrollador fullstack con experiencia en tecnologías como React, Node.js, PostgreSQL y más. Explorando oportunidades para contribuir en roles de programación y producto.",
     images: [
       {
-        url: "https://valentin-jacofsky.vercel.app/portrait.jpeg",
+        url: "https://valentin-jacofsky.vercel.app/en/portrait.jpeg",
         width: 800,
         height: 600,
         alt: "Valentín Jacofsky",
