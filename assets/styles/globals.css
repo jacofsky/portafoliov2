@@ -36,7 +36,7 @@ body {
   color: var(--bg);
   font-style: normal;
   font-weight: 700;
-  line-height: normal;
+  line-height: normal !important;
   letter-spacing: 0.5rem;
   background-clip: text;
   -webkit-background-clip: text;
